@@ -2,6 +2,9 @@
 
 DataValue Theme is a modern and customizable UI theme for Frappe and ERPNext. It improves the overall user experience and workflow efficiency while keeping the core framework intact and fully upgrade-safe.
 
+- Company: [Data Value Solutions](https://www.datavalue.solutions)
+- By: [Abdo Hamoud](https://github.com/abdo-host)
+
 ---
 
 ```bash

@@ -1,18 +1,17 @@
-MIT License
+DataValue Theme License
 
 Copyright (c) 2026 Data Value Solutions
 
 All rights reserved.
 
-This theme is free to use for personal and commercial projects.
+Permission is granted to use this theme for personal and client projects.
 
 You are allowed to:
-- Use the theme in personal or client projects
-- Modify the theme for your needs
+- Use and modify the theme for your own or client projects
 
 You are NOT allowed to:
 - Resell this theme
 - Redistribute it as a standalone product
-- Bundle it within other paid products or templates
+- Include it in any paid product, template, or bundle
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
