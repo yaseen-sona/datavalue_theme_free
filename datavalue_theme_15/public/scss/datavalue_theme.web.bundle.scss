@@ -1,0 +1,84 @@
+/*
+* Data Value Theme
+* Author: Abdo Hamoud <abdo.hamoud@gmail.com>
+* Website: https://www.abdo-host.com
+* Company: https://www.datavalue.solutions
+*/
+
+body {
+  --btn-primary: var(--blue-600);
+  --primary: var(--blue-600);
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: var(--blue-600);
+  border-color: var(--blue-600);
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff !important;
+  background-color: var(--blue-700) !important;
+}
+
+.btn.btn-primary:active {
+  color: #ffffff !important;
+  background-color: var(--blue-800) !important;
+}
+
+[frappe-session-status="logged-out"][data-path="message"] {
+  .navbar {
+    display: none;
+  }
+
+  .page-card {
+    max-width: 500px;
+    border-radius: 7px;
+    overflow: hidden;
+
+    .page-card-head {
+      .indicator {
+        font-size: 18px;
+
+        &:before {
+          display: none;
+        }
+      }
+    }
+
+    .page-card-body {
+      > p {
+        font-size: 21px;
+        font-weight: 600;
+        text-align: center;
+
+        &:before {
+          display: block;
+          text-align: center;
+          font-size: 55px;
+          font-family: "Font Awesome 5 Pro", serif;
+          font-weight: 300;
+          content: "";
+        }
+      }
+
+      > div {
+        .btn {
+          display: block;
+          margin: 15px 0px 0px 0px;
+          height: 45px;
+          line-height: 45px;
+          padding: 0;
+          font-size: 16px;
+          font-weight: 700;
+          border-radius: 31px;
+        }
+      }
+    }
+  }
+}

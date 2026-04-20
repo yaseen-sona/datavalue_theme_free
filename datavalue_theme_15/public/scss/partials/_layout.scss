@@ -1,0 +1,39 @@
+body.layout-menu-custom-menu {
+  .page-head.drop-shadow {
+    border: 1px solid #ddd;
+    border-top: 0;
+    margin: 0 5px;
+  }
+
+  .dv-app-theme .dv-app-content {
+    margin-left: 270px;
+  }
+
+  .dv-navbar .dv-nav-left .logo {
+    width: 215px;
+    margin: 2px 0 0 0;
+  }
+
+  .dv-navbar .dv-nav-left .btn-open-modules {
+    display: none;
+  }
+}
+
+body.hide-layout-page {
+  .dv-navbar, .side-menu, .btn-toggle-main-menu {
+    display: none;
+  }
+
+  .dv-app-theme .dv-app-content {
+    padding: 20px 20px 0;
+    margin-left: 0;
+  }
+
+  .page-container {
+    min-height: calc(100vh - 100px);
+  }
+}
+
+body.hide-main-menu.layout-menu-custom-menu .dv-app-theme .dv-app-content {
+  margin-left: 92px;
+}

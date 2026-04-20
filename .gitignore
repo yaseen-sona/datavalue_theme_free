@@ -1,0 +1,16 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+node_modules
+datavalue_theme_15/public/node_modules
+datavalue_theme_15/public/dist
+datavalue_theme_15/public/js/vue
+datavalue_theme_15/public/js/frappe
+datavalue_theme_15/public/js/datavalue_theme.js
+datavalue_theme_15/public/js/datavalue_theme.bundle.js
+datavalue_theme_15/public/js/datavalue_theme.settings.bundle.js
+datavalue_theme_15/public/js/datavalue_theme_web.bundle.js
+datavalue_theme_15/public/js/datavalue_login.bundle.js
+__pycache__
